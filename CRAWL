@@ -1,0 +1,5 @@
+photon -u https://www.target.com
+
+gospider -s "https://target.com/" -o output -c 2 -d 10
+
+echo https://www.target.com | hakrawler
