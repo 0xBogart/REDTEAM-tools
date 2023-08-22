@@ -1,5 +1,9 @@
 photon -u https://www.target.com
 
-gospider -s "https://target.com/" -o output -c 2 -d 10
+gospider -s "https://target.com/" -o target-dir -c 2 -d 10
 
-echo https://www.target.com | hakrawler
+echo https://target.com | hakrawler
+
+skipfish -o save https://target.com
+
+httrack https://target.com
