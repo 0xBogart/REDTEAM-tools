@@ -1,6 +1,8 @@
+wget -r https://target.com
+
 photon -u https://www.target.com
 
-gospider -s "https://target.com/" -o target-dir -c 2 -d 10
+gospider -s "https://target.com" -o target-dir -c 2 -d 10
 
 echo https://target.com | hakrawler
 
