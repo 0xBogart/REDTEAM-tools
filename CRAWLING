@@ -9,3 +9,7 @@ echo https://target.com | hakrawler
 skipfish -o save https://target.com
 
 httrack https://target.com
+
+dirb -u https://target.com
+
+feroxbuster -u https://target.com
